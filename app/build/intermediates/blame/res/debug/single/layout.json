@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/tripindicator_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/tripindicator_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_drug_info.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_drug_info.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/tripindicator_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/tripindicator_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/volunteer_adherence_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/volunteer_adherence_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_second_analytic_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_second_analytic_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/peace_corps_policy_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/peace_corps_policy_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_welcome_dummy.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_welcome_dummy.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_day.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_day.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_drug_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_drug_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_second_analytic_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_second_analytic_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_indicator_packing_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_indicator_packing_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_welcome_dummy.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_welcome_dummy.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_home.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_home.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/volunteer_adherence_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/volunteer_adherence_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_packing_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_packing_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/side_effects_npcv_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/side_effects_npcv_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/resetdata_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/resetdata_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_packing_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_packing_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/screeen_gridcell_red.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/screeen_gridcell_red.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_overlay.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/side_effects_npcv_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/side_effects_npcv_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_overlay.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/screen_gridcell_green.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/screen_gridcell_green.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_drug_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_drug_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_include.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_item_dropdown_list.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_item_dropdown_list.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_include.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/side_effects_pcv_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/side_effects_pcv_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/screen_gridcell.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/screen_gridcell.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_first_analytic_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_first_analytic_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_spinner_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_user_medicine_settings.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_user_medicine_settings.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/screen_gridcell_green.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/screen_gridcell_green.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/effectiveness_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/effectiveness_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/alert_drug_reminder.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/alert_drug_reminder.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_home.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_home.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_location_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_location_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/info_hub_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/info_hub_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/time_picker_style.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/time_picker_style.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_alarm_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_alarm_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_first_analytic_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_first_analytic_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/day_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/day_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/side_effects_percentage_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/side_effects_percentage_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_item_dropdown_list.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_item_dropdown_list.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_home_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_home_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tab.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_reminder_list_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_reminder_list_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/time_picker_style_setting.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/time_picker_style_setting.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_item_dropdown_popup.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_item_dropdown_popup.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_indicator_packing_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_indicator_packing_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tab.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/time_picker_style.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/time_picker_style.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_day.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_day.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_alarm_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_alarm_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_drug_info.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_drug_info.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_home_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_home_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/screeen_gridcell_red.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/screeen_gridcell_red.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tabbar.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/alert_drug_reminder.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/alert_drug_reminder.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/time_picker_style_setting.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/time_picker_style_setting.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_spinner_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_location_list_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_location_list_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/fragment_third_analytic_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/fragment_third_analytic_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/side_effects_percentage_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/side_effects_percentage_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/effectiveness_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/effectiveness_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_location_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_location_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_user_medicine_settings.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_user_medicine_settings.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/day_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/day_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/peace_corps_policy_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/peace_corps_policy_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_item_dropdown_popup.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_item_dropdown_popup.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tabbar.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_reminder_list_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_reminder_list_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/info_hub_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/info_hub_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/trip_spinner_popup_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/trip_spinner_popup_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/side_effects_pcv_fragment.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/side_effects_pcv_fragment.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/screen_gridcell.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/screen_gridcell.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/resetdata_dialog.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/resetdata_dialog.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_location_list_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_location_list_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/fragment_third_analytic_screen.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/fragment_third_analytic_screen.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/trip_spinner_popup_item.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/src/main/res/layout/trip_spinner_popup_item.xml"
+    },
+    {
+        "merged": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_expanded_menu_layout.xml"
+    }
+]

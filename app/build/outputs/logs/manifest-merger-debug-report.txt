@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:2:1-96:12
+	xmlns:android
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:4:5-43
+uses-sdk
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.github.JakeWharton/ViewPagerIndicator/2.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.jjoe64:graphview:3.1.3] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.jjoe64/graphview/3.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:20.0.0] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:23.1.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:15:22-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:17:22-76
+application
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:19:5-94:19
+MERGED from [com.android.support:support-v4:23.1.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:3.1.3] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.jjoe64/graphview/3.1.3/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:23.1.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:20.0.0] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:23.1.1] /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:23:9-41
+	android:allowBackup
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:22:9-50
+	android:theme
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:25:9-42
+service#com.peacecorps.malaria.AlarmService
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:26:9-27:19
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:26:18-68
+receiver#com.peacecorps.malaria.AlarmAutoStart
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:29:9-34:20
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:29:19-71
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:31:17-32:26
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:31:25-76
+receiver#com.peacecorps.malaria.AlarmHandlerClass
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:36:13-68
+intent-filter#com.peacecorps.malaria.START_ALARM
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:38:13-41:29
+action#com.peacecorps.malaria.START_ALARM
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:39:25-74
+activity#com.peacecorps.malaria.UserMedicineSettingsFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:44:9-52:20
+	android:label
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:45:13-87
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:47:13-51:29
+action#android.intent.action.MAIN
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:50:27-74
+activity#com.peacecorps.malaria.MainActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:54:13-63
+activity#com.peacecorps.malaria.AlertCallerFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:57:9-64:20
+	android:label
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:58:13-78
+intent-filter#com.example.viewpagertest.demoActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:60:13-63:29
+action#com.example.viewpagertest.demoActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:61:17-62:26
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:61:25-78
+activity#com.peacecorps.malaria.InfoHubFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:65:9-82
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:65:19-80
+activity#com.peacecorps.malaria.PeaceCorpsPolicyFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:66:9-91
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:66:19-89
+activity#com.peacecorps.malaria.PercentSideEffectsFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:67:9-93
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:67:19-91
+activity#com.peacecorps.malaria.SideEffectsPCVFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:68:9-89
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:68:19-87
+activity#com.peacecorps.malaria.SideEffectsNPCVFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:69:9-90
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:69:19-88
+activity#com.peacecorps.malaria.VolunteerAdherenceFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:70:9-93
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:70:19-91
+activity#com.peacecorps.malaria.EffectivenessFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:71:9-88
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:71:19-86
+activity#com.peacecorps.malaria.ThirdAnalyticFragment
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:72:9-80
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:72:19-78
+activity#com.peacecorps.malaria.DayFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:73:9-78
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:73:19-76
+activity#com.peacecorps.malaria.TripIndicatorFragmentActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:74:9-76:21
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:74:19-86
+	android:launchMode
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:75:19-50
+activity#com.peacecorps.malaria.TripIndicatorDialogActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:78:9-79:75
+	android:theme
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:79:13-73
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:78:19-84
+activity#com.peacecorps.malaria.TripIndicatorPackingActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:80:9-81:75
+	android:theme
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:81:13-73
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:80:19-85
+activity#com.peacecorps.malaria.TripAlarmActivity
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:83:9-84:45
+	android:theme
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:83:75-135
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:83:19-74
+	android:launchMode
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:84:13-43
+service#com.peacecorps.malaria.TripAlarmService
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:86:9-88:38
+	android:enabled
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:88:13-35
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:87:13-67
+receiver#com.peacecorps.malaria.TripAlarmReceiver
+ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:89:9-77
+	android:name
+		ADDED from /Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/src/main/AndroidManifest.xml:89:19-74
