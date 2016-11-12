@@ -71,7 +71,7 @@ public class AlertDialogFragment extends DialogFragment {
                         getSharedPreferences();
                         getSettings();
                         if (flag == 0) {
-                            if (mSharedPreferenceStore.mPrefsStore.getBoolean(
+                            if (SharedPreferenceStore.mPrefsStore.getBoolean(
                                     "com.peacecorps.malaria.isWeekly", false)) {
                                 /**Updates the date when weekly drug was taken and set the alarm for nex weekly Date**/
                                 saveUsersettings(true, true);
@@ -114,7 +114,7 @@ public class AlertDialogFragment extends DialogFragment {
                         getSharedPreferences();
                         getSettings();
                         if (flag == 0) {
-                            if (mSharedPreferenceStore.mPrefsStore.getBoolean(
+                            if (SharedPreferenceStore.mPrefsStore.getBoolean(
                                     "com.peacecorps.malaria.isWeekly", false)) {
                                 saveUsersettings(true, false);
                                 /**Marked as Not Taken. No reminders now,it ll be for next time now.**/
@@ -230,28 +230,28 @@ public class AlertDialogFragment extends DialogFragment {
         int minute = Calendar.getInstance().get(Calendar.MINUTE) - 1;
         getActivity().startService(
                 new Intent(getActivity(), AlarmService.class));
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmHour", hour)
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmHour", hour)
                 .commit();
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmMinute", minute)
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmMinute", minute)
                 .commit();
     }
 
     public void saveUsersettings(Boolean state, Boolean isWeekly) {
         if (isWeekly) {
             /**Storing the Dates**/
-            mSharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.weeklyDate",
+            SharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.weeklyDate",
                     new Date().getTime()).commit();
-            mSharedPreferenceStore.mEditor.putBoolean(
+            SharedPreferenceStore.mEditor.putBoolean(
                     "com.peacecorps.malaria.isWeeklyDrugTaken", state).commit();
         } else {
-            mSharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.dateDrugTaken",
+            SharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.dateDrugTaken",
                     new Date().getTime()).commit();
-            mSharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isDrugTaken",
+            SharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isDrugTaken",
                     state).commit();
         }
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.drugRejectedCount",
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.drugRejectedCount",
                 mDrugRejectedCount).commit();
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.drugAcceptedCount",
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.drugAcceptedCount",
                 mDrugAcceptedCount).commit();
 
     }
@@ -259,9 +259,9 @@ public class AlertDialogFragment extends DialogFragment {
     public void getSettings() {
 
         /**Setting the reminder according to setting**/
-        mDrugAcceptedCount = mSharedPreferenceStore.mPrefsStore.getInt(
+        mDrugAcceptedCount = SharedPreferenceStore.mPrefsStore.getInt(
                 "com.peacecorps.malaria.drugAcceptedCount", 0);
-        mDrugRejectedCount = mSharedPreferenceStore.mPrefsStore.getInt(
+        mDrugRejectedCount = SharedPreferenceStore.mPrefsStore.getInt(
                 "com.peacecorps.malaria.drugRejectedCount", 0);
 
         Calendar c = Calendar.getInstance();
@@ -283,10 +283,10 @@ public class AlertDialogFragment extends DialogFragment {
 
     public void getSharedPreferences() {
 
-        mSharedPreferenceStore.mPrefsStore = getActivity()
+        SharedPreferenceStore.mPrefsStore = getActivity()
                 .getSharedPreferences("com.peacecorps.malaria.storeTimePicked",
                         Context.MODE_PRIVATE);
-        mSharedPreferenceStore.mEditor = mSharedPreferenceStore.mPrefsStore
+        SharedPreferenceStore.mEditor = SharedPreferenceStore.mPrefsStore
                 .edit();
     }
 

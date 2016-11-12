@@ -98,10 +98,10 @@ public class FirstAnalyticFragment extends Fragment {
 
     public void getSharedPreferences() {
 
-        mSharedPreferenceStore.mPrefsStore = getActivity()
+        SharedPreferenceStore.mPrefsStore = getActivity()
                 .getSharedPreferences("com.peacecorps.malaria.storeTimePicked",
                         Context.MODE_PRIVATE);
-        mSharedPreferenceStore.mEditor = mSharedPreferenceStore.mPrefsStore
+        SharedPreferenceStore.mEditor = SharedPreferenceStore.mPrefsStore
                 .edit();
     }
 
@@ -168,23 +168,23 @@ public class FirstAnalyticFragment extends Fragment {
         /*Updating Doses in a Row for Weekly and Daily Pill Seperately*/
         DatabaseSQLiteHelper sqLite = new DatabaseSQLiteHelper(getActivity());
         Log.d(TAGFAF, "INSIDE updateDoses");
-        if(mSharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isWeekly",false)) {
+        if(SharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isWeekly",false)) {
             int d = sqLite.getDosesInaRowWeekly();
-            mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.weeklyDose", d).apply();
+            SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.weeklyDose", d).apply();
             doses.setText("" + d/*mSharedPreferenceStore.mPrefsStore.getInt("com.peacecorps.malaria.weeklyDose", 0)*/);
         }
         else
         {
             int d = sqLite.getDosesInaRowDaily();
-            mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.dailyDose",d).apply();
-            doses.setText("" + mSharedPreferenceStore.mPrefsStore.getInt("com.peacecorps.malaria.dailyDose", 0));
+            SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.dailyDose",d).apply();
+            doses.setText("" + SharedPreferenceStore.mPrefsStore.getInt("com.peacecorps.malaria.dailyDose", 0));
         }
     }
 
     public void updateMediLastTime() {
         /*Updating the most recent time medication was taken*/
         if (checkMediLastTakenTime != null) {
-            checkMediLastTakenTime.setText(mSharedPreferenceStore.mPrefsStore.getString("com.peacecorps.malaria.checkMediLastTakenTime", "").toString());
+            checkMediLastTakenTime.setText(SharedPreferenceStore.mPrefsStore.getString("com.peacecorps.malaria.checkMediLastTakenTime", "").toString());
         }
     }
 
@@ -213,7 +213,7 @@ public class FirstAnalyticFragment extends Fragment {
                 {   //if yes, reset the database
                     DatabaseSQLiteHelper sqLite = new DatabaseSQLiteHelper(getActivity());
                     sqLite.resetDatabase();
-                    mSharedPreferenceStore.mEditor.clear().commit();
+                    SharedPreferenceStore.mEditor.clear().commit();
                     startActivity(new Intent(getActivity(),
                             UserMedicineSettingsFragmentActivity.class));
                     getActivity().finish();

@@ -404,7 +404,7 @@ public class TripIndicatorFragmentActivity extends FragmentActivity {
                 if (ch.equalsIgnoreCase("yes")) {
                     DatabaseSQLiteHelper sqLite = new DatabaseSQLiteHelper(getApplicationContext());
                     sqLite.resetDatabase();
-                    mSharedPreferenceStore.mEditor.clear().commit();
+                    SharedPreferenceStore.mEditor.clear().commit();
                     SharedPreferenceStore.mEditor.clear().commit();
                     startActivity(new Intent(getApplication().getApplicationContext(),
                             UserMedicineSettingsFragmentActivity.class));
@@ -602,10 +602,10 @@ public class TripIndicatorFragmentActivity extends FragmentActivity {
     }
 
     public void getSharedPreferences() {
-        mSharedPreferenceStore.mPrefsStore = getApplication()
+        SharedPreferenceStore.mPrefsStore = getApplication()
                 .getSharedPreferences("com.peacecorps.malaria.storeTimePicked",
                         Context.MODE_PRIVATE);
-        mSharedPreferenceStore.mEditor = mSharedPreferenceStore.mPrefsStore
+        SharedPreferenceStore.mEditor = SharedPreferenceStore.mPrefsStore
                 .edit();
     }
 

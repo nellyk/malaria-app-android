@@ -49,7 +49,7 @@ public class TripIndicatorDialogActivity extends ListActivity {
         Cursor cursor= sqlite.getLocation();
 
         /** Columns to be Shown in The ListView **/
-        String[] columns = {sqlite.KEY_ROW_ID,sqlite.LOCATION};
+        String[] columns = {DatabaseSQLiteHelper.KEY_ROW_ID, DatabaseSQLiteHelper.LOCATION};
 
         /**XML Bound Views according to the Column**/
         int[] to = new int[] {
@@ -83,7 +83,7 @@ public class TripIndicatorDialogActivity extends ListActivity {
                 Toast.makeText(getApplicationContext(),
                         location, Toast.LENGTH_SHORT).show();
 
-                mSharedPreferenceStore.mEditor.putString("com.peacecorps.malaria.TRIP_LOCATION", location).commit();
+                SharedPreferenceStore.mEditor.putString("com.peacecorps.malaria.TRIP_LOCATION", location).commit();
 
                 TripIndicatorFragmentActivity.locationSpinner.setText(location);
 

@@ -395,7 +395,7 @@ public class ThirdAnalyticFragment extends Activity implements OnClickListener {
                 if (eventsPerMonthMap.containsKey(theday)) {
                     num_events_per_day = (TextView) row
                             .findViewById(R.id.num_events_per_day);
-                    Integer numEvents = (Integer) eventsPerMonthMap.get(theday);
+                    Integer numEvents = eventsPerMonthMap.get(theday);
                     num_events_per_day.setText(numEvents.toString());
                 }
             }

@@ -174,7 +174,7 @@ public class InfoHubFragmentActivity extends FragmentActivity {
                 if (ch.equalsIgnoreCase("yes")) {
                     DatabaseSQLiteHelper sqLite = new DatabaseSQLiteHelper(getApplicationContext());
                     sqLite.resetDatabase();
-                    mSharedPreferenceStore.mEditor.clear().commit();
+                    SharedPreferenceStore.mEditor.clear().commit();
                     startActivity(new Intent(getApplication().getApplicationContext(),
                             UserMedicineSettingsFragmentActivity.class));
 

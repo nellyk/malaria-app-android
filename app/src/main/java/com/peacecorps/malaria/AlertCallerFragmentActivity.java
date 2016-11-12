@@ -24,7 +24,7 @@ public class AlertCallerFragmentActivity extends FragmentActivity {
 
                 String weeklyDate = "weeklyDate";
                 getSharedPreferences();
-                if (mSharedPreferenceStore.mPrefsStore.getBoolean(
+                if (SharedPreferenceStore.mPrefsStore.getBoolean(
                         "com.peacecorps.malaria.isWeekly", false)) {
                     /**Weekly Day has reached, now Alarm will remind for Pill**/
                     if (checkDrugTakenTimeInterval(weeklyDate) == 0
@@ -58,7 +58,7 @@ public class AlertCallerFragmentActivity extends FragmentActivity {
         /**Finding the interval between Date when last drug was taken and Today.**/
         long interval = 0;
         long today = new Date().getTime();
-        long takenDate = mSharedPreferenceStore.mPrefsStore.getLong("com.peacecorps.malaria."
+        long takenDate = SharedPreferenceStore.mPrefsStore.getLong("com.peacecorps.malaria."
                 + time, 0);
         long oneDay = 1000 * 60 * 60 * 24;
         interval = (today - takenDate) / oneDay;
@@ -68,9 +68,9 @@ public class AlertCallerFragmentActivity extends FragmentActivity {
 
     public void getSharedPreferences() {
         /**reading the application SharedPreferences for storing of time and drug selected**/
-        mSharedPreferenceStore.mPrefsStore = getSharedPreferences(
+        SharedPreferenceStore.mPrefsStore = getSharedPreferences(
                 "com.peacecorps.malaria.storeTimePicked", Context.MODE_PRIVATE);
-        mSharedPreferenceStore.mEditor = mSharedPreferenceStore.mPrefsStore
+        SharedPreferenceStore.mEditor = SharedPreferenceStore.mPrefsStore
                 .edit();
     }
 }

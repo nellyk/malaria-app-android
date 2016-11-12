@@ -163,10 +163,10 @@ public class TripIndicatorPackingActivity extends Activity {
 
                 getSharedPreferences();
 
-                mSharedPreferenceStore.mEditor.putInt("Array Size", outputStrArr.length);
+                SharedPreferenceStore.mEditor.putInt("Array Size", outputStrArr.length);
 
                 for(int i=0;i<outputStrArr.length;i++)
-                    mSharedPreferenceStore.mEditor.putString(outputStrArr + "_" + i, outputStrArr[i]).commit();
+                    SharedPreferenceStore.mEditor.putString(outputStrArr + "_" + i, outputStrArr[i]).commit();
 
                 /** Create a bundle object**/
                 Bundle b = new Bundle();
@@ -260,9 +260,9 @@ public class TripIndicatorPackingActivity extends Activity {
     private void getSharedPreferences() {
         // reading the application SharedPreferences for storing of time and
         // drug selected
-        mSharedPreferenceStore.mPrefsStore = getSharedPreferences(
+        SharedPreferenceStore.mPrefsStore = getSharedPreferences(
                 "com.peacecorps.malaria.packingItem", Context.MODE_PRIVATE);
-        mSharedPreferenceStore.mEditor = mSharedPreferenceStore.mPrefsStore
+        SharedPreferenceStore.mEditor = SharedPreferenceStore.mPrefsStore
                 .edit();
     }
 

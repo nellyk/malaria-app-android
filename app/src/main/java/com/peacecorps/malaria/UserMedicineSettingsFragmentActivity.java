@@ -101,9 +101,9 @@ public class UserMedicineSettingsFragmentActivity extends FragmentActivity
     protected void onDestroy() {
 
         super.onDestroy();
-        if (mSharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",
+        if (SharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",
                 true)) {
-            mSharedPreferenceStore.mEditor.putBoolean(
+            SharedPreferenceStore.mEditor.putBoolean(
                     "com.peacecorps.malaria.hasUserSetPreference", true).commit();
         }
 
@@ -113,9 +113,9 @@ public class UserMedicineSettingsFragmentActivity extends FragmentActivity
     protected void onResume() {
         super.onResume();
 
-        if (mSharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",
+        if (SharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",
                 true)) {
-            mSharedPreferenceStore.mEditor.putBoolean(
+            SharedPreferenceStore.mEditor.putBoolean(
                     "com.peacecorps.malaria.hasUserSetPreference", true).commit();
 
 
@@ -127,9 +127,9 @@ public class UserMedicineSettingsFragmentActivity extends FragmentActivity
     protected void onPause() {
 
         super.onPause();
-        if (mSharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",
+        if (SharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",
                 true)) {
-            mSharedPreferenceStore.mEditor.putBoolean(
+            SharedPreferenceStore.mEditor.putBoolean(
                     "com.peacecorps.malaria.hasUserSetPreference", true).commit();
         }
 
@@ -144,12 +144,12 @@ public class UserMedicineSettingsFragmentActivity extends FragmentActivity
     private void checkInitialAppInstall() {
 
 
-        if (mSharedPreferenceStore.mPrefsStore.getBoolean(
+        if (SharedPreferenceStore.mPrefsStore.getBoolean(
                 "com.peacecorps.malaria.hasUserSetPreference", false)) {
 
-            mSharedPreferenceStore.mEditor.putBoolean(
+            SharedPreferenceStore.mEditor.putBoolean(
                     "com.peacecorps.malaria.hasUserSetPreference", true).commit();
-            mSharedPreferenceStore.mEditor
+            SharedPreferenceStore.mEditor
                     .putBoolean("com.peacecorps.malaria.isFirstRun", true).commit();
 
             startActivity(new Intent(UserMedicineSettingsFragmentActivity.this,
@@ -266,17 +266,17 @@ public class UserMedicineSettingsFragmentActivity extends FragmentActivity
         int checkDay = mCalendar.get(Calendar.DAY_OF_WEEK);
 
 
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmHour", mHour)
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmHour", mHour)
                 .commit();
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmMinute", mMinute)
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.AlarmMinute", mMinute)
                 .commit();
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.dayTakingDrug", checkDay);
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.dayTakingDrug", checkDay);
 
-        mSharedPreferenceStore.mEditor.putString("com.peacecorps.malaria.drugPicked",
+        SharedPreferenceStore.mEditor.putString("com.peacecorps.malaria.drugPicked",
                 mDrugPicked);
-        mSharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isDrugTaken", false)
+        SharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isDrugTaken", false)
                 .commit();
-        mSharedPreferenceStore.mEditor.commit();
+        SharedPreferenceStore.mEditor.commit();
         mFragmentContext.startService(new Intent(mFragmentContext,
                 AlarmService.class));
 
@@ -345,21 +345,21 @@ public class UserMedicineSettingsFragmentActivity extends FragmentActivity
         mDrugPicked = parent.getItemAtPosition(position).toString();
 
         parent.setSelection(parent.getSelectedItemPosition());
-        mSharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.drug", position).commit();
+        SharedPreferenceStore.mEditor.putInt("com.peacecorps.malaria.drug", position).commit();
         if (position == 2) {
-            mSharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isWeekly", true);
-            mSharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.weeklyDate",
+            SharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isWeekly", true);
+            SharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.weeklyDate",
                     new Date().getTime()).commit();
         } else {
-            mSharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isWeekly", false);
+            SharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isWeekly", false);
         }
-        if(mSharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",true)){
+        if(SharedPreferenceStore.mPrefsStore.getBoolean("com.peacecorps.malaria.isFirstRun",true)){
             long firstRunTime= new Date().getTime();
-            mSharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.firstRunTime", firstRunTime);
-            Log.d(TAGUMSFA,"First Run Time:"+mSharedPreferenceStore.mPrefsStore.getLong(
+            SharedPreferenceStore.mEditor.putLong("com.peacecorps.malaria.firstRunTime", firstRunTime);
+            Log.d(TAGUMSFA,"First Run Time:"+ SharedPreferenceStore.mPrefsStore.getLong(
                     "com.peacecorps.malaria.firstRunTime", 0));
         }
-        mSharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isFirstRun", false);
+        SharedPreferenceStore.mEditor.putBoolean("com.peacecorps.malaria.isFirstRun", false);
 
     }
 

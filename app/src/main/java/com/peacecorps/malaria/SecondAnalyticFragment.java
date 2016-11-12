@@ -82,7 +82,7 @@ public class SecondAnalyticFragment extends Fragment {
 
         date = Calendar.getInstance().get(Calendar.MONTH);
         //checking choic of pill whether weekly or daily
-        if (mSharedPreferenceStore.mPrefsStore.getBoolean(
+        if (SharedPreferenceStore.mPrefsStore.getBoolean(
                 "com.peacecorps.malaria.isWeekly", false)) {
             choice = "weekly";
         } else {
@@ -186,10 +186,10 @@ public class SecondAnalyticFragment extends Fragment {
     /*Fetching the Details and Settings from Shared Preferences*/
     public void getSharedPreferences() {
 
-        mSharedPreferenceStore.mPrefsStore = getActivity()
+        SharedPreferenceStore.mPrefsStore = getActivity()
                 .getSharedPreferences("com.peacecorps.malaria.storeTimePicked",
                         Context.MODE_PRIVATE);
-        mSharedPreferenceStore.mEditor = mSharedPreferenceStore.mPrefsStore
+        SharedPreferenceStore.mEditor = SharedPreferenceStore.mPrefsStore
                 .edit();
     }
 
@@ -332,7 +332,7 @@ public class SecondAnalyticFragment extends Fragment {
 
         ((LineGraphView) lineGraphView).setDrawBackground(true);
         ((LineGraphView) lineGraphView).setDrawDataPoints(true);
-        ((LineGraphView) lineGraphView).setBackgroundColor(getResources().getColor(R.color.light_blue));
+        lineGraphView.setBackgroundColor(getResources().getColor(R.color.light_blue));
          float r=(float)0.20;
          ((LineGraphView) lineGraphView).setDataPointsRadius(r);
         //plotting data
@@ -369,7 +369,7 @@ public class SecondAnalyticFragment extends Fragment {
                 if (ch.equalsIgnoreCase("yes")) {
                     DatabaseSQLiteHelper sqLite = new DatabaseSQLiteHelper(getActivity());
                     sqLite.resetDatabase();
-                    mSharedPreferenceStore.mEditor.clear().commit();
+                    SharedPreferenceStore.mEditor.clear().commit();
                     startActivity(new Intent(getActivity(),
                             UserMedicineSettingsFragmentActivity.class));
                     getActivity().finish();

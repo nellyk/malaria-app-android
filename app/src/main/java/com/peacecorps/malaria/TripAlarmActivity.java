@@ -91,7 +91,7 @@ public class TripAlarmActivity extends Activity {
                 this.getApplicationContext(), 103, Pintent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
         final AlarmManager alarmManager = (AlarmManager) this
-                .getSystemService(this.ALARM_SERVICE);
+                .getSystemService(ALARM_SERVICE);
         final Calendar calender = Calendar.getInstance();
         Date date = new Date();
         calender.setTime(date);

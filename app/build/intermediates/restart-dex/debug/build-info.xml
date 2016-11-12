@@ -4,29 +4,29 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="1478987570389903000"
-    token="-3721669148165401508" >
+    timestamp="1478994580756234000"
+    token="7343708409094198261" >
 
     <task
         name="javac"
-        duration="4630" />
+        duration="714" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1539" />
+        duration="532" />
     <task
         name="verifier"
-        duration="85" />
+        duration="86" />
 
     <artifact
-        location="/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/outputs/apk/app-debug.apk"
+        location="/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="1478987570389903000" >
+    <build timestamp="1478994580756234000" >
         <artifact
-            location="/Users/nkiboi/Downloads/systers/malaria/malaria-app-android1/app/build/outputs/apk/app-debug.apk"
+            location="/Users/nkiboi/Downloads/systers/malaria/malaria-app-android/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 
