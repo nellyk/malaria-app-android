@@ -1,3 +1,5 @@
+
+[![Build Status](https://travis-ci.org/nellyk/malaria-app-android.svg?branch=master)](https://github.com/nellyk/malaria-app-android)
 Malaria App for Android
 ====
 
