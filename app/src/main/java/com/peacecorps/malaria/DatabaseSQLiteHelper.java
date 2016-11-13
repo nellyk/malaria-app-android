@@ -504,7 +504,7 @@ public class DatabaseSQLiteHelper extends SQLiteOpenHelper {
     }
 
     /*Getting the Date Object from the String**/
-    private Date getDateObject(String s)
+    public Date getDateObject(String s)
     {
         Date dobj=null;
 

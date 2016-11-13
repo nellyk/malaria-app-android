@@ -11,6 +11,10 @@
 # generated files
 bin/
 gen/
+outputs/
+tmp/
+intermediates/
+generated/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -27,3 +31,4 @@ proguard/
 *.ipr
 *.iws
 .idea/
+.gradle/
