@@ -1,9 +1,6 @@
 language: android
 jdk: oraclejdk7
-sudo: required
 android:
   components:
     - build-tools-23.0.2
     - android-19
-
-script: "./gradlew build --stacktrace"
